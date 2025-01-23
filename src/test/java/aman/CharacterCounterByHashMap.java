@@ -21,13 +21,14 @@ public class CharacterCounterByHashMap {
 				hs.put(c,1);
 			}
 		}
+		System.out.println(hs);
 		   
 		Set<Character> Allkeys=hs.keySet();
-		for(Character key:Allkeys)
-		{
-			System.out.println(key+":"+hs.get(key));
-		}
-	
+//		for(Character key:Allkeys)
+//		{
+//			System.out.println(key+":"+hs.get(key));
+//		}
+//	
 //		for(Character key:Allkeys) // to print only duplicate
 //			{ 
 //		        if(hs.get(key)>1)
@@ -35,11 +36,11 @@ public class CharacterCounterByHashMap {
 //			}
 //		
 		
-//		for(Character key:Allkeys) // to print only non-duplicate
-//			{ 
-//			    if(hs.get(key)==1)
-//				System.out.println(key);
-//			}
+		for(Character key:Allkeys) // to print only non-duplicate
+			{ 
+			    if(hs.get(key)==1)
+				System.out.println(key);
+			}
 	
 
 		

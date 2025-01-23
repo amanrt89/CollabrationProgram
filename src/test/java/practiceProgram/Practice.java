@@ -3,7 +3,7 @@ package practiceProgram;
 public class Practice
 {
 public static void main(String[] args) {
-	String s = "AaBbCcDd";
+	String s = "IhVErTyUi";
 	
 	char[] a = s.toCharArray();
 	

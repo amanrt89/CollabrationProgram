@@ -16,8 +16,12 @@ public class CharacterCounter {
 			{
 				System.out.println("'"+(char)i+"':"+count[i]);
 			}
+//			if(count[i]==1) {
+//				System.out.println((char)i); // for print only 1 
+//			}
 
 		}
+		
 	}}
 
 

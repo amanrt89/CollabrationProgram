@@ -48,7 +48,7 @@ public class DataproviderDemo
       driver.quit();
 	}
     
-	@DataProvider(name= "data", indices= {0})
+	@DataProvider(name= "data", indices= {1})
 	Object testdata()
 	{
 	      Object[][]data= {{"standard_user", "secret_sauce"},
